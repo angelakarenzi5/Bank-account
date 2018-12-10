@@ -3,7 +3,7 @@ body{
     background-repeat:no-repeat;
 }
 h1{
-    font-family:"sans-serif";
+    font-family:"Sans-serif";
     font-weight:bold;
     text-align:center;
     font-size:xx-large;
@@ -31,7 +31,19 @@ p{
 #aboutme > h2{
     text-align:center;
 }
-#list > p{
-    padding-right:10%;
-    padding-left:10%;
+#list>ol>li>a:hover{background-color: skyblue;
+    color:blue;
+    font-size:18px;
+    font-family:'Courier New';
+    padding:10px;
+
+}
+#list>ol>li>a{font-size:18px;
+text-decoration: none;
+}
+.footer{
+    background-color:purple;
+    color:hotpink;
+    width:100%;
+    text-align:center;
 }
