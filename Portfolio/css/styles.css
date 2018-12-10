@@ -6,6 +6,7 @@ h1{
     font-family:"sans-serif";
     font-weight:bold;
     text-align:center;
+    font-size:xx-large;
 }
 p{
     font-family:'cursive';
@@ -29,4 +30,8 @@ p{
 }
 #aboutme > h2{
     text-align:center;
+}
+#list > p{
+    padding-right:10%;
+    padding-left:10%;
 }
