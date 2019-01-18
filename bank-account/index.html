@@ -2,59 +2,37 @@
 <html>
   <head>
    <title>Bank account</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" >
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
    </head>
   <body>
+      <div class="container">
     <h1><center>Bank account registration form</h1></center></h1>
     <div class="container">
-    <div id="values">
-      <div>
-      <h1>Names</h1>
+    <div id="first">
+      <h1>Register new account</h1>
        <form>
-         First name:<br>
+         Names:<br>
         <input type="text" name="firstname"><br>
-        Second name:<br>
-         <input type="text" name="secondname"><br>
-         Third name:<br>
-         <input type="text" name="thirdname"><br>
+        Initial Deposit<br>
+        <input type="text" name="secondname"><br>
+       </form>
+       </div>
+       <div id="second"></div>
+       <h1>Deposit or withdraw funds</h1>
+       <form>
+         Deposit amount:<br>
+         <input type="text" name="deposit"><br>
+         Withdraw amount:<br>
+         <input type="text" name="withdraw"><br>
         </form>
-        <h1>Telephone number</h1>
-        <form>
-        <input type="text" name="telephone"><br>
-    </form>
-    <h1>Email address</h1>
-    <form>
-        <input type="text" name="email"><br>
-    </form>
-    <h1>Marital status</h1>
-      <form action="/action_page.php">
-        <select name="status">
-      <option value="married">Married</option>
-      <option value="divorced">Single</option>
-     <option value="widowed">Widowed</option>
-   <option value="separated">Separated/option>
-   <option value="single">Single</option>
-  </select>
-  </form>
-     <form>
-     <h1>Native Language</h1>
-                  <input type="text" name="language"><br>
-              </form>
-              <form>
-                    <h1>Occupation</h1>
-                    <input type="text" name="language"><br>
-                </form>
-                <form>
-                 <h1>Monthly income</h1>
-                <input type="text" name="language"><br>
-             </form>
-             <form>
-                    <h1>Nationality</h1>
-                   <input type="text" name="language"><br>
-                </form>
-                <strong><button onclick="track()">Register the account</button></strong>
-            </div>
+        <strong><button onclick="track()">Track</button></strong>
   </div>
+</div>
   </body>
 </html>
