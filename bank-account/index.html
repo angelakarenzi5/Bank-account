@@ -1,39 +1,48 @@
 <DOCTYPE.html>
-<html>
-  <head>
-   <title>Bank account</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css" >
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-   </head>
-  <body>
-      <div class="container">
-    <h1><center>Bank account registration form</h1></center></h1>
-    <div class="container">
-    <div id="first">
-      <h1>Register new account</h1>
-       <form>
-         Names:<br>
-        <input type="text" name="first" id="name"><br>
-        Initial Deposit<br>
-        <input type="text" name="second" id="initial"><br>
-       </form>
-       </div>
-       <div id="second" ></div>
-       <h1>Deposit or withdraw funds</h1>
-       <form>
-         Deposit amount:<br>
-         <input type="text" name="third" id="deposit"><br>
-         Withdraw amount:<br>
-         <input type="text" name="fourth" id="withdraw"><br>
-        </form>
-    </div>
-    <strong><button onclick="track()">Track</button></strong>
+  <html>
+    <head>
+     <title>Bank account</title>
+      <link rel="stylesheet" href="css/styles.css" type="text/css" >
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+      <script src="js/script.js"></script>
+     </head>
+    <body>
+     <div class="container" >
 
-   </div>
-  </body>
-</html>
+
+     
+     
+     
+    <div class="ice" id="first">
+      <h1><center>Bank account registration form</h1></center></h1>
+        <h1>Register new account</h1>
+         <div>
+           Names:<br>
+          <input type="text" name="first" id="name"><br>
+          Initial deposit<br>
+          <input type="text" name="second" id="initial"><br>
+          <button  id="submit1">submit</button>
+         </div>
+         </div>
+
+         <div class="ice" id="second" >
+         <h1>Deposit Amount</h1>
+          <input type="number" name="third" id="money"><br>
+          <br>
+           <strong><button id="submit2">submit</button></strong>
+         </div>
+
+           <div class="ice" id="third" >
+           <h1>Withdraw Amount</h1>
+           <input type="number" name="fourth" id="coins"><br>
+           <br>
+           <strong><button id="submit3">submit</button></strong>
+           </div>
+       <br>
+      <strong><button>Check Balance</button></strong>
+    </div>
+    </div>
+     
+    </body>
+  </html>
